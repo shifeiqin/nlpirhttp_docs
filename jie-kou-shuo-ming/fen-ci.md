@@ -38,7 +38,7 @@ _**保存后下次分词系统初始化后无需重复导入用户词即可使�
 
 `return：true or false;`
 
-**5.导入文件接口**_**    **_
+**5.文件导入单词接口**_**    **_
 
 `URL：`[`http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclasImpUserDict`](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
 
