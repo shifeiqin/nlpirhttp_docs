@@ -22,13 +22,13 @@ _**调用该接口，将会向分词系统导入一个用户词，如果是临�
 
 URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclasSaveUserWord](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
 
-
-
 return：true or false;
 
-_**调用该接口，将会向分词系统导入一个用户词，如果是临时使用，那么指定用该接口，系统只是加载到分词系统的内存中，如系统推出，重加初始化使用，那么添加的词将不再起作用。**_
+_**为了保证单词添加接口添加的词长期有效，那么需要调用用户词保存接口。**_
 
-**4.保存单词接口**_**    **_
+_**保存后下次分词系统初始化后无需重复导入用户词即可使用。**_
+
+**4.删除单词接口**_**    **_
 
 URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclasDelUserWord](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
 
@@ -36,5 +36,15 @@ URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclasDelUserWord](http://127.0.0.
 
 return：true or false;
 
-_**调用该接口，将会向分词系统导入一个用户词，如果是临时使用，那么指定用该接口，系统只是加载到分词系统的内存中，如系统推出，重加初始化使用，那么添加的词将不再起作用。**_
+**4.导入文件接口**_**    **_
+
+URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclasImpUserDict](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
+
+参数：path   文件路径
+
+           type
+
+return：true or false;
+
+
 
