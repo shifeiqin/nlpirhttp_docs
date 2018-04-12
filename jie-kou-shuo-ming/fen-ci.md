@@ -10,9 +10,21 @@ return：String  例：_面贴/nvercat    一下/mq    解/v    薄弱测试/nve
 
 **2.新增单词接口**_    _
 
-URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclas](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
+URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclasAddUserWord](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
 
-参数：content
+参数：content       用户词，格式“词 词性”，词和词性以空格分开的字符串。
 
-return：String
+return：true or false;
+
+_**调用该接口，将会向分词系统导入一个用户词，如果是临时使用，那么指定用该接口，系统只是加载到分词系统的内存中，如系统推出，重加初始化使用，那么添加的词将不再起作用。**_
+
+**2.保存单词接口**_    _
+
+URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclasDelUserWord](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
+
+参数：content       用户词，格式“词 词性”，词和词性以空格分开的字符串。
+
+return：true or false;
+
+_**调用该接口，将会向分词系统导入一个用户词，如果是临时使用，那么指定用该接口，系统只是加载到分词系统的内存中，如系统推出，重加初始化使用，那么添加的词将不再起作用。**_
 
