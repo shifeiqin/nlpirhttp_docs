@@ -38,13 +38,13 @@ return：true or false;
 
 **4.导入文件接口**_**    **_
 
-URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclasImpUserDict](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
+`URL：`[`http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclasImpUserDict`](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
 
-参数：path   文件路径
+`参数：path   文件路径`
 
-       type文件路径
-
-
+```
+   type文件路径
+```
 
 return：true or false;
 
