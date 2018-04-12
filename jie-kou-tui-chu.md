@@ -2,7 +2,7 @@
 
 各种接口退出：URL一致，用type区分退出不同接口
 
-1. **URL：**[http://127.0.0.1:8080/NLPIR\_HTTP/HttpNlpir](http://127.0.0.1:8080/NLPIR_HTTP/HttpNlpirInit)Exit
+1. **URL：**[http://127.0.0.1:8080/NLPIR\_HTTP/HttpNlpirExit](http://127.0.0.1:8080/NLPIR_HTTP/HttpNlpirInit)
 2. **参数：type**
 
 参数说明：
