@@ -2,8 +2,10 @@
 
 各种接口初始化发放：URL一致，用type区分初始化不同接口
 
-1. **URL：**http://127.0.0.1:8080/NLPIR\_HTTP/HttpNlpirInit
+1. **URL：**[http://127.0.0.1:8080/NLPIR\_HTTP/HttpNlpirInit](http://127.0.0.1:8080/NLPIR_HTTP/HttpNlpirInit)
 2. **参数：type**
+
+参数说明：
 
 1. type=1     //分词
 2. type=2     //关键词
