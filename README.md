@@ -1,3 +1,8 @@
-# My Awesome Book
+# 数据挖掘接口说明
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+接口调整：
+
+1. 调用接口顺序：初始化--&gt;调用对应接口...--&gt;退出
+
+
+

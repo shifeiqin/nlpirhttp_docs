@@ -1,1 +1,17 @@
-# First Chapter
+# 接口初始化说明
+
+各种接口初始化发放：URL一致，用type区分初始化不同接口
+
+1. **URL：**http://127.0.0.1:8080/NLPIR\_HTTP/HttpNlpirInit
+2. **参数：type**
+
+1. type=1     //分词
+2. type=2     //关键词
+3. type=3     //去重
+4. type=4     //实体抽取
+5. type=5     //新词发现
+6. type=6     //训练分类
+7. type=7     //摘要
+
+
+
