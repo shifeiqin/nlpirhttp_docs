@@ -1,6 +1,6 @@
-# 接口初始化说明
+# 接口退出说明
 
-各种接口初始化：URL一致，用type区分初始化不同接口
+各种接口退出：URL一致，用type区分退出不同接口
 
 1. **URL：**[http://127.0.0.1:8080/NLPIR\_HTTP/HttpNlpirInit](http://127.0.0.1:8080/NLPIR_HTTP/HttpNlpirInit)
 2. **参数：type**
