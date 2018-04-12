@@ -38,15 +38,13 @@ _**保存后下次分词系统初始化后无需重复导入用户词即可使�
 
 `return：true or false;`
 
-**4.导入文件接口**_**    **_
+**5.导入文件接口**_**    **_
 
 `URL：`[`http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclasImpUserDict`](http://127.0.0.1:8080/NLPIR_HTTP/HttpIctclas)
 
 `参数：path   文件路径`
 
-```
-   type文件路径
-```
+`type   是否覆盖现有用户词典，1为覆盖，0为不覆盖。`
 
 `return：true or false;`
 
