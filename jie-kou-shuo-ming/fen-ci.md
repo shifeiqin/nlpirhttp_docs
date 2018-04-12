@@ -42,9 +42,11 @@ URL：[http://127.0.0.1:8080/NLPIR\_HTTP/HttpIctclasImpUserDict](http://127.0.0.
 
 参数：path   文件路径
 
-           type
+           type文件路径
+
+```
+
+```
 
 return：true or false;
-
-
 
