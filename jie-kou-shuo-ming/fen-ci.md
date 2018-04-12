@@ -6,7 +6,7 @@
 
 `参数：content,type`
 
-`return：String ` 
+`return：String`
 
 例：_面贴/nvercat    一下/mq    解/v    薄弱测试/nvercat    决/vg    这个/rz    奥巴马/AWK    问题/n    参考/vn    字符转码/user    的/ude1    文章/n    小尾羊/nvercat    大/a    尾/q    羊/n_
 
@@ -48,5 +48,5 @@ _**保存后下次分词系统初始化后无需重复导入用户词即可使�
    type文件路径
 ```
 
-return：true or false;
+`return：true or false;`
 
