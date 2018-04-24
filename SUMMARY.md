@@ -5,4 +5,5 @@
 * [接口退出](jie-kou-tui-chu.md)
 * [接口说明](jie-kou-shuo-ming.md)
   * [分词](jie-kou-shuo-ming/fen-ci.md)
+  * [搜索](jie-kou-shuo-ming/sou-suo.md)
 
